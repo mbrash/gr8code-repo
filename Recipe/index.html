@@ -3,20 +3,79 @@
 	<head>
 		<meta charset="utf-8">
 		<title>My Recipies</title>
+		<!-- css style data -->
+		<style>
+			body {
+				font-family: Arial;	
+				width: 720px;
+				margin: auto;
+				color: #555;
+			}
+
+			h1, h2 {
+				color: black;
+			}
+
+			h2 {
+				font-size: 18px;
+			}
+
+			footer {
+				font-size: 12px
+			}
+			
+			table thead tr {
+				height: 40px;
+				font-size: 15px;
+				text-align: left;
+			}
+
+			table thead tr td:first-child {
+				width: 100px;
+			}
+
+			table tr td:first-child {
+				font-weight: bold;
+			}
+
+			table tr:hover {
+				background-color: #FEFFDB;
+				cursor: pointer;
+			}
+
+			#instructions {
+				margin-top: 40px;
+			}
+
+			a {
+				text-decoration: none;
+			}
+
+			a:hover {
+				color: tomato;
+			}
+
+			footer {
+				margin-top: 10px;
+			}
+		</style>
 	</head>
 
 	<body>
 		<header>
+			<h1>Buffalo Chicken Dip</h1>
+			<p>Mine is better than yours, so enjoy.</p>
 			<img src="buff-chicken.jpg" width>
 		</header>
 
-		<h1>Buffalo Chicken Dip</h1>
-		<p>Mine is better than yours, so enjoy.</p>
+		<hr></hr>
 
-		<h3>Ingredients</h3>
+		
+
+		<h2>Ingredients</h2>
 
 		<!-- Table of ingredients -->
-		<table border="1">	
+		<table>	
 			<thead>
 				<tr>
 					<td><strong>Quantity</strong></td>
@@ -44,6 +103,8 @@
 		</table>
 
 		<!-- steps for cooking -->
+		<h2 id="instructions">Instructions</h2>
+
 		<ol>
 			<li>Preheat oven 350F</li>
 			<li>Apply secret sauce to chicken</li>
@@ -53,6 +114,7 @@
 		</ol>
 
 		<!-- signup form -->
+		<!--
 		<form>
 			<fieldset>
 			<legend align="center">Join Our Mailing List</legend>
@@ -66,13 +128,15 @@
 				<option>Sausage</option>
 				<option>Pineapple</option>
 			</select><br>
+			
+			<input type="submit" value="Join Mailing List">
 			</fieldset>
-			<input type="submit" value="Join Mailing List"><br>
 		</form>
+		-->
 
 		<footer>
-			Michael Brash<br>
-			<a href="mailto:mbrash123@gmail.com">Mbrash123@gmail.com</a><br>
+			Michael Brash |
+			<a href="mailto:mbrash123@gmail.com">Mbrash123@gmail.com | </a>
 			<a href="tel:+813-xxx-xxxx">813-xxx-xxxx</a>
 		</footer>
 	</body>
