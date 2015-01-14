@@ -1,18 +1,11 @@
 /* style.css */
+@import url("header-style.css");
+@import url("form-style.css");
+
 body {
 	min-width: 520px;
 	color: #555;
 	font-family: Arial;	
-}
-
-header {
-	background-color: lightgrey;
-	height: 80px;
-	margin: 10px 0px;
-}
-
-header a {
-	font-weight: bold;
 }
 
 .recipes {
@@ -28,7 +21,6 @@ header a {
 	list-style-position: inside;
 	margin-left: -40px;
 }
-
 
 footer {
 	margin-top: 40px;
@@ -98,7 +90,3 @@ table tr:hover {
 #instructions {
 	margin-top: 40px;
 }
-
-
-
-
