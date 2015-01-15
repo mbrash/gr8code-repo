@@ -1,0 +1,35 @@
+/* form-style.css */
+fieldset {
+    background-color: #EEE;
+    border: thin solid lightgrey;
+    width: 200px;
+    height: 420px;
+}
+
+label {
+	display: block;
+	margin: 5px 0;
+}
+
+input, select {
+	border: thin solid lightgrey;
+	margin-bottom: 10px;
+	height: 2em;
+	width: 16em;
+}
+
+select {
+	border-radius: 0px;
+}
+
+textarea {
+	border: thin solid lightgrey;
+	margin-bottom: 10px;
+}
+
+input[type="submit"] {
+	background-color: lightgreen;
+	width: 8em;
+	height: 2em;
+	font-size: 1.05em;
+}
