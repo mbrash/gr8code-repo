@@ -1,0 +1,176 @@
+/* style.css */
+@import url("header-style.css");
+@import url("form-style.css");
+
+body {
+	/*min-width: 520px;*/
+	color: #555;
+	font-family: Arial;	
+	max-width: 920px;
+	margin: auto;
+}
+
+.recipes {
+	background-color: lightyellow;
+	width: 300px;
+	padding: 15px 0 15px 30px;
+	border: thin solid black;
+	border-radius: 10px;
+}
+
+.recipes li {
+	list-style-type: none;
+	list-style-position: inside;
+	margin-left: -40px;
+}
+
+footer {
+	margin-top: 40px;
+}
+
+footer a[href^="mailto"] {
+	text-decoration: none;
+	color: #555;
+}
+
+hr {
+	color: #ddd;
+}
+
+h1 {
+	font-size: 18px;
+	color: black;
+}
+
+h2 {
+	font-size: 24px;
+	color: black;
+}
+
+.recipe-title {
+	height: 90px;
+}
+
+.recipe-title img {
+	width: 100px;
+	height: auto;
+	float: left;
+	padding-right: 10px;
+}
+
+.recipe-title a {
+	float: right;
+	background-color: #C8F279;
+	border: thin solid #8ABD2B;
+	width: 110px;
+	height: 30px;
+	text-align: center;
+	padding-top: 10px;
+	text-decoration: none;
+	color: #555;
+}
+
+table thead tr {
+	height: 40px;
+	font-size: 14px;
+	text-align: left;
+}
+
+table thead tr td:first-child {
+	width: 100px;
+}
+
+table tr td:first-child {
+	font-weight: bold;
+}
+
+table tr:hover {
+	background-color: #FEFFDB;
+	cursor: pointer;
+}
+
+#instructions {
+	margin-top: 40px;
+}
+
+/* 
+=============================================== 
+-- MEDIA QUERIES 
+=============================================== */
+
+/* Handle mobile phone screen size <481px 
+@media only screen and (max-width: 481px) {
+	body {
+		background-color: lightblue;
+		width: 100%;
+	}
+
+	.container {
+		margin: auto;
+		width: 100%;
+	}
+
+	.main-content {
+		padding: 0 3% 0 3%;
+		margin: auto;
+	}
+
+	.recipes{
+		margin: auto;
+		display: block;
+	}
+
+	.recipes h1, .recipes ul {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+	.nav {
+		height: 100%;
+		-webkit-flex-direction: column;
+		-webkit-justify-content: center;
+	}
+
+	.nav li:first-child {
+		margin: 25px 0 10px 0;
+	}
+
+	.nav li {
+		margin: 5px 0 5px 0;
+	}
+
+	.nav li:last-child {
+		margin: 5px 0 25px 0;
+	}
+
+	footer {
+		padding: 3%;
+	}
+
+	footer a {
+		display: inline-block;
+		margin: auto;
+	}
+
+	#savebtn {
+		display: none;
+	}
+
+}
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+

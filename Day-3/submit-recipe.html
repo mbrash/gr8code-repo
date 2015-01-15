@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <META charset="utf-8">
+    <title>Submit a Recipe</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <nav>
+                <ul class="nav">
+                    <li><img src="imgs/logo-120x.png">
+                    </li>
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li><a href="recipes.html">Recipes</a>
+                    </li>
+                    <li><a href="submit-recipe.html">Submit a Recipe</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main-content">
+            <h2>Submit a Recipe</h2>
+            <p>We'd love to know what your favorite recipes are! Submit them here, and if they're awesome, we'll include them on our site.</p>
+
+            <form action="#" method="POST" name="my_form">
+                <fieldset>
+                    <label for="name">Your name:</label>
+                    <input type="text" name="name" id="name">
+                    <br>
+                    <label for="email">Your Email:</label>
+                    <input type="text" name="email" id="email">
+                    <br>
+                    <label for="typeof-meal">What type of recipe is this?</label>
+                    <select id="typeof-meal">
+                        <option>Appetizer</option>
+                        <option>Meal</option>
+                        <option>Desert</option>
+                    </select>
+                    <label for="description">Enter your recipe below</label>
+                    <textarea id="description" name="description" rows="10" cols="30"></textarea>
+                    <br>
+                    <input type="submit" value="Submit Recipe">
+                    <br>
+                </fieldset>
+            </form>
+        </main>
+
+        <footer class="footer">
+            <hr>
+            <a href="mailto:mbrash123@gmail.com">Mbrash123@gmail.com | </a>
+            <a href="tel:+813-xxx-xxxx">813-xxx-xxxx</a>
+        </footer>
+    </div>
+</body>
+
+</html>
