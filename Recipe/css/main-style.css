@@ -1,0 +1,126 @@
+/* style.css */
+@import url("header-style.css");
+@import url("form-style.css");
+@import url("recipe-style.css");
+
+.container {
+    color: #555;
+    font-family: Arial, sans-serif;
+    margin: auto;
+    width: 88%;
+    min-width: 480px;
+}
+.footer {
+    margin-top: 10px;
+}
+.footer a[href^="mailto"] {
+    text-decoration: none;
+    color: #555;
+}
+hr {
+    color: #ddd;
+    margin-top: 20px;
+}
+h1 {
+    font-size: 18px;
+    color: black;
+}
+h2 {
+    font-size: 24px;
+    color: black;
+}
+.recipes {
+    background-color: lightyellow;
+    width: 300px;
+    padding: 15px 0 15px 30px;
+    border: thin solid black;
+    border-radius: 10px;
+}
+.recipes li {
+    list-style-type: none;
+    list-style-position: inside;
+    margin-left: -40px;
+}
+/* 
+=============================================== 
+-- MEDIA QUERIES 
+=============================================== */
+
+@media only screen and (max-width: 481px) {
+    .container {
+        padding: 0 10px;
+        min-width: 0px;
+    }
+    .main-content {
+        margin: auto;
+    }
+    .nav {
+        height: 100%;
+        -webkit-flex-direction: column;
+        -webkit-justify-content: center;
+    }
+    .nav li:first-child {
+        margin: 25px 0 10px 0;
+    }
+    .nav li {
+        margin: 5px 0 5px 0;
+    }
+    .nav li:last-child {
+        margin: 5px 0 25px 0;
+    }
+    .footer {
+        width: 82%;
+        margin: auto;
+    }
+    .footer a {
+        display: inline-block;
+        margin: 10px auto;
+    }
+    /* index.html */
+    
+    .main-content h2 {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .main-content p {
+        margin: 30px 10px 20px 10px;
+    }
+    .recipes {
+        margin: 40px auto 50px auto;
+    }
+    .recipes h1, .recipes ul {
+        text-align: center;
+        margin-left: -30px;
+    }
+    /* recipes.html */
+    
+    .recipe-title {
+        height: 100%;
+        width: 75%;
+        margin: auto;
+    }
+    .recipe-title img {
+        float: none;
+        display: block;
+        width: 250px;
+        padding: 10px 0 15px 0;
+        margin: auto;
+    }
+    .recipe-title p, .recipe-title h1 {
+        margin: auto;
+        text-align: center;
+        padding: 5px 0;
+    }
+    #savebtn {
+        display: none;
+    }
+    /* submit-recipe.html */
+    
+    fieldset {
+        background-color: #EEE;
+        border: thin solid lightgrey;
+        width: 90%;
+        margin: auto;
+        height: 420px;
+    }
+}

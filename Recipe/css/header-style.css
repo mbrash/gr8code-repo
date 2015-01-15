@@ -1,0 +1,28 @@
+/* header-style.css */
+
+header a {
+    font-weight: bold;
+}
+header img {
+    height: 50px;
+}
+header li {
+    list-style-type: none;
+}
+/* flexbox */
+
+.nav {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: flex-end;
+    background-color: lightgrey;
+    height: 80px;
+}
+.nav li {
+    padding-right: 20px;
+    -webkit-align-self: center;
+}
+.nav li:first-child {
+    margin: 0 auto 0 -20px;
+}
