@@ -1,0 +1,190 @@
+
+/*old code */
+
+.work-showcase {
+    /*margin-top: 30px;*/
+    border: thick solid black;
+}
+
+/*.thumbnail img {
+    width: 120px;
+    height: auto;
+}
+
+.thumbnail {
+    margin: 20px 10px 10px 10px;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+}
+
+a.thumbnail {
+    width: 160px;
+}*/
+/*.my-work {
+    width: 160px;
+    height: 120px;
+    background-color: lightblue;
+    border: thick solid black;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.work-thumbnail {
+    background-color: steelblue;
+    margin: 10px;
+    height: 150px;
+}
+
+
+a.thumbnail {
+    background: none;
+    border: none;
+    height: 150px;
+    width: auto;
+}
+
+a.thumbnail p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #333;
+    font-variant: small-caps;
+}
+
+
+.overlay {
+    height: 150px;
+    width: 180px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.fa {
+    font-size: 2em;
+    color: white;
+    margin: 35% 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ====================================================
+   Change my-work images here 
+   ==================================================== */
+
+.my-work-1 {
+    background-image: url('../img/mikebrash.png');
+}
+.my-work-2 {
+    background-image: url('../img/mikebrash.png');
+}
+.my-work-3 {
+    background-image: url('../img/mikebrash.png');
+}
+.my-work-4 {
+    background-image: url('../img/mikebrash.png');
+}
+.my-work-5 {
+    background-image: url('../img/mikebrash.png');
+}
+.my-work-6 {
+    background-image: url('../img/mikebrash.png');
+}
+/* ===================================================*/
+
+.my-work-1, .my-work-2, .my-work-3, .my-work-4, .my-work-5, .my-work-6 {
+    margin-top: 60px;
+    width: 160px;
+    height: 120px;
+    background-color: lightblue;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.my-work-1:hover, .my-work-2:hover, .my-work-3:hover, .my-work-4:hover, .my-work-5:hover, .my-work-6:hover {
+
+}
+.my-work-1 h2, .my-work-2 h2, .my-work-3 h2, .my-work-4 h2, .my-work-5 h2, .my-work-6 h2 {
+    font-size: 1.2em;
+    font-variant: small-caps;
+    margin-top: 0;
+}
+
+/* =======================================================
+    Hover overlay effect for thumbnails 
+    ====================================================== */
+
+/*.overlay {
+    width: 160px;
+    height: 120px;
+    background-image: url("/img/expand-128.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-color: grey;
+    opacity: .1;
+}*/
+
+.overlay:hover {
+    -webkit-animation: on-hover .3s;
+    /* Chrome, Safari, Opera */
+    
+    animation: on-hover .3s;
+    -webkit-animation-fill-mode: forwards;
+    /* Chrome, Safari, Opera */
+    
+    animation-fill-mode: forwards;
+}
+@-webkit-keyframes on-hover {
+    /*100% {background-color: rgba(160,160,160,.85);}*/
+    
+    100% {
+        opacity: .7;
+    }
+}

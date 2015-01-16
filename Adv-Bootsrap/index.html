@@ -7,120 +7,156 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mikebrash's Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" tpye="text/css" href="css/style.css">
+
 </head>
 
 <body>
-    <div class="wrapper">
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Mikebrash</a>
-                </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">home</a>
-                        </li>
-                        <li><a href="#">about</a>
-                        </li>
-                        <li><a href="#">blog</a>
-                        </li>
-                        <li><a href="#">contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Mikebrash</a>
             </div>
-            <!-- /.container-fluid -->
-        </nav>
 
-        <div class="intro">
-            <img alt="mikebrash" src="img/mikebrash.png">
-            <h1>Hi, I am a Web &amp; Mobile App Developer!</h1>
-            <p>Hello everyone, I am Mike Brash, the one who can make your dreams a reality.</p>
-            <p>Feel free to explore and look at some of the amazing works I have completed over the past few years. Feel free to message me or share my site with all of your friends. Enjoy!</p>
-        </div>
-
-        <div class "my-work">
-            <div class="row">
-                <div class="col-md-2 col-md-offset-3">
-                    <div class="my-work-1">
-                        <div class="overlay"></div>
-                        <h2>my work</h2>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="my-work-1">
-                        <div class="overlay"></div>
-                        <h2>my work</h2>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="my-work-1">
-                        <div class="overlay"></div>
-                        <h2>my work</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-2 col-md-offset-3">
-                    <div class="my-work-4">
-                        <div class="overlay"></div>
-                        <h2>my work</h2>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="my-work-5">
-                        <div class="overlay"></div>
-                        <h2>my work</h2>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="my-work-6">
-                        <div class="overlay"></div>
-                        <h2>my work</h2>
-                    </div>
-                </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">home</a>
+                    </li>
+                    <li><a href="about.html">about</a>
+                    </li>
+                    <li><a href="blog.html">blog</a>
+                    </li>
+                    <li><a href="contact.html">contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
+    </nav>
 
-        <div class="footer">
-            <div class="row">
-                <div class="col-md-3 col-md-offset-2">
-                    <address id="address">
-                        <strong>Work</strong>
-                        <br> Street Drive Rd.
-                        <br> Tampa, Florida
-                        <br>
-                        <abbr title="Phone">P:</abbr><a href="tel:1234561234"> 813-xxx-xxxx</a>
-                        <br>
-                        <abbr title="Email">E:</abbr><a href="mailto:mbrash123@gmail.com"> mbrash123@gmail</a>
-                    </address>
-                </div>
-                <div class="col-md-2 connect">
-                    <strong>Connect</strong>
-                    <br>
-                    <a href="#">Facebook</a>
-                    <br>
-                    <a href="#">Twitter</a>
-                    <br>
-                    <a href="#">Github</a>
+    <div class="intro">
+        <img alt="mikebrash" src="img/mikebrash.png">
+        <h1>Hi, I am a Web &amp; Mobile App Developer!</h1>
+        <p>Hello everyone, I am Mike Brash, the one who can make your dreams a reality.</p>
+        <p>Feel free to explore and look at some of the amazing works I have completed over the past few years. Feel free to message me or share my site with all of your friends. Enjoy!</p>
+    </div>
 
+    <!-- thumbnail gallery of work 3x2  -->
+    <div class="container work-gallery">
+        <h2>my work</h2>
+        <p>My work is shown here. Some of the work from myself<br><a href="#">Michael Brash.</a></p>
+
+
+        <div class="row work-row">
+            <div class="col-sm-2 col-md-offset-2 work-thumbnail">
+                <a href="samplework.html" class="thumbnail">
+                    <div class="overlay"><i class="fa fa-search"></i></div>
+                    <img src="/img/mikebrash.png">
+                    <p>my work</p>
+                </a>
+            </div>
+            <div class="col-sm-2 work-thumbnail">
+                <a href="samplework.html" class="thumbnail">
+                    <div class="overlay"><i class="fa fa-search"></i></div>
+                    <img src="/img/mikebrash.png">
+                    <p>my work</p>
+                </a>
+            </div>
+            <div class="col-sm-2 work-thumbnail">
+                <a href="samplework.html" class="thumbnail">
+                    <div class="overlay"><i class="fa fa-search"></i></div>
+                    <img src="/img/mikebrash.png">
+                    <p>my work</p>
+                </a>
+            </div>
+        </div>
+        <div class="row work-row">
+            <div class="col-sm-2 work-thumbnail">
+                <a href="samplework.html" class="thumbnail">
+                    <div class="overlay"><i class="fa fa-search"></i></div>
+                    <img src="/img/mikebrash.png">
+                    <p>my work</p>
+                </a>
+            </div>
+            <div class="col-sm-2 work-thumbnail">
+                <a href="samplework.html" class="thumbnail">
+                    <div class="overlay"><i class="fa fa-search"></i></div>
+                    <img src="/img/mikebrash.png">
+                    <p>my work</p>
+                </a>
+            </div>
+            <div class="col-sm-2 work-thumbnail">
+                <a href="samplework.html" class="thumbnail">
+                    <div class="overlay"><i class="fa fa-search"></i></div>
+                    <img src="/img/mikebrash.png">
+                    <p>my work</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="skill-set">
+        <div class="row">
+            <div class="col-sm-2 col-sm-offset-2">
+                <p class="skill"><i class="fa fa-book"></i><br>Lorem ipsum dolor sit amet, ex per sint tacimates.</p>
+            </div>
+            <div class="col-sm-2">
+                <p class="skill"><i class="fa fa-book"></i><br>Lorem ipsum dolor sit amet, ex per sint tacimates.</p>
+            </div>
+            <div class="col-sm-2">
+                <p class="skill"><i class="fa fa-book"></i><br>Lorem ipsum dolor sit amet, ex per sint tacimates.</p>
+            </div>
+            <div class="col-sm-2">
+                <p class="skill"><i class="fa fa-book"></i><br>Lorem ipsum dolor sit amet, ex per sint tacimates.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-2">
+                <div class="stats">
+                    <h3>guess what</h3>
+                    <p>Lorem ipsum dolor sit amet, ex per sint tacimates. Ea mutat forensibus qui. Lorem ipsum dolor sit amet, ex per sint tacimates. Ea mutat forensibus qui.</p>
                 </div>
-                <div class="col-md-3  about-me">
-                    <strong>About</strong>
-                    <br> More to come
-                    <br> Some day soon
+            </div>
+            <div class="col-sm-4">
+                <div class="stats">
+                    <h3>my skills</h3>
+                    <div class="stat stat-1"><p>Wordpress</p></div>
+                    <div class="stat stat-2"><p>Photoshop</p></div>
+                    <div class="stat stat-3"><p>HTML + CSS</p></div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer container">
+        <div class="row">
+            <div class="col-sm-3 col-sm-offset-2 contact"> 
+                    <p><strong>Work</strong></p>
+                    <p> Street Drive Rd.<br>Tampa, Florida<br>
+                    <a href="tel:1234561234"> 813-xxx-xxxx</a></p>
+            </div>
+            <div class="col-sm-2 connect">
+                <p><strong>Connect</strong></p>
+              
+                <p><a href="#">Facebook</a><br>
+                <a href="#">Twitter</a><br>
+                <a href="#">Github</a></p>
+
+            </div>
+            <div class="col-sm-3  about-me">
+                <p><strong>About</strong></p>
+                <p>More to come<br>
+                  Some day soon</p>
             </div>
         </div>
     </div>
