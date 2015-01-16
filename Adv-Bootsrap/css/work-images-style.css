@@ -1,0 +1,68 @@
+/* ====================================================
+   Change my-work images here 
+   ==================================================== */
+
+.my-work-1 {
+    background-image: url('../img/mikebrash.png');
+}
+.my-work-2 {
+    background-image: url('../img/mikebrash.png');
+}
+.my-work-3 {
+    background-image: url('../img/mikebrash.png');
+}
+.my-work-4 {
+    background-image: url('../img/mikebrash.png');
+}
+.my-work-5 {
+    background-image: url('../img/mikebrash.png');
+}
+.my-work-6 {
+    background-image: url('../img/mikebrash.png');
+}
+/* ===================================================*/
+
+.my-work-1, .my-work-2, .my-work-3, .my-work-4, .my-work-5, .my-work-6 {
+    margin-top: 60px;
+    width: 160px;
+    height: 120px;
+    background-color: lightblue;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.my-work-1:hover, .my-work-2:hover, .my-work-3:hover, .my-work-4:hover, .my-work-5:hover, .my-work-6:hover {
+    /*background-color: red;*/
+}
+.my-work-1 h2, .my-work-2 h2, .my-work-3 h2, .my-work-4 h2, .my-work-5 h2, .my-work-6 h2 {
+    font-size: 1.2em;
+    font-variant: small-caps;
+    margin-top: 0;
+}
+.overlay {
+    width: 160px;
+    height: 120px;
+    background-image: url("/img/expand-128.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-color: grey;
+    opacity: .1;
+}
+.overlay:hover {
+    -webkit-animation: on-hover .3s;
+    /* Chrome, Safari, Opera */
+    
+    animation: on-hover .3s;
+    -webkit-animation-fill-mode: forwards;
+    /* Chrome, Safari, Opera */
+    
+    animation-fill-mode: forwards;
+}
+@-webkit-keyframes on-hover {
+    /*100% {background-color: rgba(160,160,160,.85);}*/
+    
+    100% {
+        opacity: .8;
+    }
+}

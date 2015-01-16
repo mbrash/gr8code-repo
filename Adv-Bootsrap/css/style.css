@@ -1,0 +1,104 @@
+/* style.css */
+@import url('work-images-style.css');
+
+body {
+	font-family: Verdana;
+	color: #f1f1f1;
+	background-color: #f1f1f1;
+}
+
+h1 {
+	font-size: 1.8em;
+}
+
+h2 {
+	font-size: 1.4em;
+	color: #333;
+	text-align: center;
+}
+
+.nav-div {
+	background: #333;
+	height: 100px;
+}
+
+.nav-div div a {
+	color: white;
+	font-variant: small-caps;
+	margin-top: 25px;
+	font-size: 1.25em;
+}
+
+.nav-div div a, .nav-div div a:hover {
+	background: none !important;
+}
+
+.nav a {
+	font-variant: small-caps;
+}
+
+.navbar-right {
+	margin-right: 144px;
+}
+
+.navbar-brand {
+	margin-left: 144px !important;
+}
+
+.logo {
+	margin-top: 32px;
+	font-size: 1.275em;
+}
+
+.intro{
+	background: lightblue;
+	padding: 4% 0;
+	margin-top: -20px;
+}
+
+.intro img {
+  	background: lightblue; 
+	border-radius: 50% 50%;
+	height: auto;
+	width: 10%;
+	display: block;
+}
+
+.intro h1, .intro p {
+	text-align: center;
+	color: #333;
+	width: 60%;
+}
+.intro h1, .intro img, .intro p {
+	margin: 20px auto;
+}
+
+.footer {
+	height: 100%;
+	width: 100%;
+	background-color: #333;
+	margin-top: 75px;
+	padding-bottom: 40px;
+	color: #888;
+}
+
+.footer div {
+	margin-top: 28px;
+}
+
+.footer strong {
+	font-size: 1.2em;
+}
+
+.footer a {
+	color: #888;
+	font-size: 1em;
+}
+
+.connect {
+	text-align: center;
+}
+
+.about-me {
+	text-align: right;
+}

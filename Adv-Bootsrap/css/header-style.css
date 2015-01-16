@@ -1,0 +1,21 @@
+/* header-style.css */
+.nav-div {
+	background: grey;
+	height: 100px;
+}
+
+.nav-div div a {
+	color: white;
+	font-variant: small-caps;
+	margin-top: 25px;
+	font-size: 1.25em;
+}
+
+.nav-div div a, .nav-div div a:hover {
+	background: none !important;
+}
+
+.logo {
+	margin-top: 32px;
+	font-size: 1.275em;
+}
