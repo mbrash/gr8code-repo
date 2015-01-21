@@ -3,7 +3,7 @@
 .nav {
     background-color: #333;
     width: 100%;
-    padding-left: 80px;
+    padding-left: 40px;
 }
 .nav a, .nav a:hover {
     color: grey;
@@ -35,7 +35,6 @@
     margin: 0 auto 70px auto;
 }
 h1 {
-    font-size: 5.6em;
     font-size: 9vw;
 }
 h3 small {
