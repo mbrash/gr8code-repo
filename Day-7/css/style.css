@@ -1,34 +1,30 @@
 body {
-	background-color: lightblue;	
+    background-color: lightblue;
 }
-
 .wrapper {
-	width: 80%;
-	max-width: 800px;
-	background-color: #333;
-	margin: auto;
-	padding: 40px 0;
+    width: 80%;
+    max-width: 800px;
+    background-color: #333;
+    margin: auto;
+    padding: 40px 0;
 }
-
 .btn {
-	display: block;
-	background-color: tomato;
-	width: 50%;
-	max-width: 400px;
-	height: 70px;
-	margin: 30px auto;
-	color: #f1f1f1;
-	font-size: 1.2em;
-	padding: 22px;
-	border-radius: 50px 50px;
+    display: block;
+    background-color: tomato;
+    width: 50%;
+    max-width: 400px;
+    height: 70px;
+    margin: 30px auto;
+    color: #f1f1f1;
+    font-size: 1.2em;
+    padding: 22px;
+    border-radius: 50px 50px;
 }
-
 a:hover {
-	text-decoration: none;
-	color: #f1f1f1;
+    text-decoration: none;
+    color: #f1f1f1;
 }
-
 .btn:hover {
-	opacity: .6;
-	-webkit-transform: scale(.9,.9)
+    opacity: .6;
+    -webkit-transform: scale(.9, .9)
 }
