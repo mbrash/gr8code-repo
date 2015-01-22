@@ -1,3 +1,5 @@
+"use strict";
+
 var myNames = ["mike", "patrick", "chris", "alex"];
 
 var car = {
@@ -10,35 +12,41 @@ var car = {
 
 console.log(car);
 
-// listener for button 1
-document.getElementById("1").addEventListener('click', function() {
-	console.log(myNames[1]);
-});
+$( document ).ready(function() {
+  	// add listener to each button
+	$('.btn').click(function(event) {
+		// determine btn 
+		switch(Number(event.target.id)) {
+			case 1:
+				// print 2nd name
+				console.log(myNames[1]);
+				break;
+			case 2:
+				// print nums 1-10
+				for (var i = 1; i <= 10; i++) {
+						console.log(i);
+					};
+				break;
+			case 3: 
+				// print all names
+				for (var i=0; i < myNames.length; i++) {
+						console.log(myNames[i]);
+					};
+				break;
+			case 4:
+				// print names begining with 'p'
+				for (var i=0; i < myNames.length; i++) {
+					if (myNames[i].substring(0,1) === 'p') {
+							console.log(myNames[i]);
+						};
+					};
+				break;
+			case 5:
+				car.honk();
+				break;
+		}; // switch
 
-// listener for button 2
-document.getElementById("2").addEventListener('click', function() {
-	for (var i = 1; i <= 10; i++) {
-		console.log(i);
-	};
-});
+	}); // click listener
 
-// listener for button 3
-document.getElementById("3").addEventListener('click', function() {
-	for (var i=0; i < myNames.length; i++) {
-		console.log(myNames[i]);
-	};
-});
+});// doc ready
 
-// listener for button 4
-document.getElementById("4").addEventListener('click', function() {
-	for (var i=0; i < myNames.length; i++) {
-			if (myNames[i].substring(0,1) === 'p') {
-				console.log(myNames[i]);
-			};
-	};
-});
-
-// listener for button 5
-document.getElementById("5").addEventListener('click', function() {
-	car.honk();
-});
