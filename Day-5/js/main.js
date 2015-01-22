@@ -9,10 +9,14 @@ function printName (name) {
 
 printName(myName);
 
-// change background of element
-document.getElementById("copyright").style.background = "steelblue";
 
-// event listener circle click
-document.addEventListener("click", function(){
-    alert("Don't touch my circle!");
+$( document ).ready(function() {
+    console.log( "ready!" );
+
+    $("#copyright").css("background-color", "steelblue");
+
+    $('.circle').click(function() {
+		alert("Don't touch my circle!");
+    });
+
 });
