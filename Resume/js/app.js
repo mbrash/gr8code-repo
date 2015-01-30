@@ -24,7 +24,7 @@ $(document).ready(function() {
     new WOW().init();
 
     // trigger count to on scroll
-    var eventCalled = false
+    var eventCalled = false;
 
     $(window).scroll(function (event) {
     	var scroll = $(window).scrollTop();
