@@ -1,0 +1,12 @@
+.abilities .row {
+    padding: 10px;
+}
+.icon-service {
+    font-size: 2em;
+    color: white;
+    background-color: black;
+    width: $service-icon-side;
+    height: $service-icon-side;
+    text-align: center;
+    @include border-radius(5px);
+}

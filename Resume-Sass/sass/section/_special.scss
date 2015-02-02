@@ -1,0 +1,25 @@
+.stats {
+    h2 {
+       letter-spacing: 15px; 
+    }
+    h4 {
+        margin-top: 28px;
+        font-variant: small-caps;
+    }
+}
+.status-text {
+    width: 50%;
+}
+#status-header {
+    text-align: center;
+}
+#contact-btn {
+    color: $secondary-text-color;
+    height: 40px;
+    width: 120px;
+    margin-top: 5px;
+    border: none;
+    @include border-radius(5px);
+    background-color: $secondary-color;
+}
+

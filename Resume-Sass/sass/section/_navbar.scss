@@ -1,0 +1,43 @@
+.navbar {
+    height: 400px;
+    background: url('../img/maracas-lookout.jpg') no-repeat center;
+    background-size: cover;
+}
+.nav {
+    padding: 50px 0 0 50px;
+}
+.navbar-default {
+    .navbar-brand {
+        padding: 65px 100px 0;
+        color: $secondary-text-color;
+        font-variant: small-caps;
+        font-size: 1.3em;
+    }
+    .navbar-nav>li>a {
+        color: $secondary-text-color;
+        font-variant: small-caps;
+        font-size: 1.3em;
+    }
+    .navbar-toggle .icon-bar {
+        background-color: $secondary-text-color;
+    }
+}
+.nav-header {
+    text-align: center;
+    color: $secondary-text-color;
+}
+.navbar-toggle {
+    margin: 40px 0 0 80px;
+}
+nav h1 {
+    padding-top: 60px;
+}
+.contact-info, .glyphicon {
+    line-height: 1.5em;
+    color: $secondary-color;
+    &:hover {
+        // need to figure out how to select both selctors here!!!!!!!!
+        color: complement($secondary-color);
+        text-decoration: none;
+    }
+}

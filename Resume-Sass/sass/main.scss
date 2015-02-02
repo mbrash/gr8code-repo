@@ -1,0 +1,18 @@
+/*import variables and mixins*/
+@import "variables";
+@import "mixins";
+
+/*global site styles*/
+@import "global";
+
+/*import styles from page sections*/
+@import "section/navbar";
+@import "section/about";
+@import "section/special";
+@import "section/abilities";
+@import "section/resume";
+@import "section/customers";
+@import "section/footer";
+
+/*import media queries*/
+@import "media-queries";

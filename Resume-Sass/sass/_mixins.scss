@@ -1,0 +1,19 @@
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+// gradient mixin funciton
+@mixin create-skill-gradient($stop-val, $color-val) {
+	background: $color-val;
+    background: -moz-linear-gradient(left, $color-val 0%, $color-val $stop-val, $color-val $stop-val, #ffffff $stop-val, #f1f1f1 $stop-val, #f1f1f1 100%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, $color-val), color-stop($stop-val, $color-val), color-stop($stop-val, $color-val), color-stop($stop-val, #ffffff), color-stop($stop-val, #f1f1f1), color-stop(100%, #f1f1f1), color-stop(100%, #ffffff));
+    background: -webkit-linear-gradient(left, $color-val 0%, $color-val $stop-val, $color-val $stop-val, #ffffff $stop-val, #f1f1f1 $stop-val, #f1f1f1 100%, #ffffff 100%);
+    background: -o-linear-gradient(left, $color-val 0%, $color-val $stop-val, $color-val $stop-val, #ffffff $stop-val, #f1f1f1 $stop-val, #f1f1f1 100%, #ffffff 100%);
+    background: -ms-linear-gradient(left,$color-val 0%, $color-val $stop-val, $color-val $stop-val, #ffffff $stop-val, #f1f1f1 $stop-val, #f1f1f1 100%, #ffffff 100%);
+    background: linear-gradient(to right, $color-val 0%, $color-val $stop-val, $color-val $stop-val, #ffffff $stop-val, #f1f1f1 $stop-val, #f1f1f1 100%, #ffffff 100%);
+}
+
+
