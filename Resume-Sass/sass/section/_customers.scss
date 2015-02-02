@@ -1,5 +1,5 @@
 .owl-theme .owl-controls .owl-page {
-    padding-top: 20px;
+    @include padding(20px, null, null, null);
 }
 .customers {
     text-align: center;

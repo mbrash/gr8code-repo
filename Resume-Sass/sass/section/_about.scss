@@ -3,7 +3,9 @@
     height: 300px;
     background: url('../img/nerd-img.jpg') no-repeat center;
     background-size: cover;
-    margin-top: 25px;
+    @include margin(25px, null, null, null);
+
+    // margin-top: 25px;
 }
 .skillset, .skill p {
     font-variant: small-caps;
@@ -11,10 +13,10 @@
 .skill {
     width: 200px;
     height: 20px;
-    margin-bottom: 22px;
-    border-radius: 10px;
+    @include margin(null, null, 22px, null);
+    @include border-radius(10px);
     p {
-        padding: 17px 0 0 5px;
+        @include padding(17px, null, null, 5px);
     }
 }
 // create grdient for skills (stopval, color)
@@ -34,11 +36,11 @@
     @include create-skill-gradient(50%, $secondary-color)
 }
 .social ul {
-    padding-left: 2px;
-    margin: 38px auto 0 auto;
+    @include padding(null, null, null, 2px);
+    @include margin(38px, auto, 0, auto);
     li {
         display: inline-block;
-        margin-left: 10px;
+        @include margin(10px, null, null, null);
         height: 35px;
         width: 35px;
     }

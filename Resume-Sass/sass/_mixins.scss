@@ -5,6 +5,22 @@
           border-radius: $radius;
 }
 
+// null passed for no effect
+@mixin margin($t, $r, $b, $l) {
+  @if $t != null {margin-top: $t;}
+  @if $r != null {margin-right: $r;}
+  @if $b != null {margin-bottom: $b}
+  @if $l != null {margin-left: $l}
+}
+
+// null passed for no effect
+@mixin padding($t, $r, $b, $l) {
+  @if $t != null {padding-top: $t;}
+  @if $r != null {padding-right: $r;}
+  @if $b != null {padding-bottom: $b}
+  @if $l != null {padding-left: $l}
+}
+
 // gradient mixin funciton
 @mixin create-skill-gradient($stop-val, $color-val) {
 	background: $color-val;

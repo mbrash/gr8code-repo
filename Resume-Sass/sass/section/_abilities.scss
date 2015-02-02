@@ -1,9 +1,9 @@
 .abilities .row {
-    padding: 10px;
+    @include padding(10px, 10px, 10px, 10px);
 }
 .icon-service {
     font-size: 2em;
-    color: white;
+    color: $secondary-text-color;
     background-color: black;
     width: $service-icon-side;
     height: $service-icon-side;

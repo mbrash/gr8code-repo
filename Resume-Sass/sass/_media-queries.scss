@@ -1,21 +1,20 @@
-
 /*resize elements*/
+
 @media only screen and (max-width: 988px) {
     .section-head {
         margin-left: 0px;
+        @include margin(null, null, null, 0px);
     }
     .footer {
-        padding-left: 22px;
-        padding-bottom: 70px;
+        @include padding(null, null, 70px, 22px);
     }
 }
 @media only screen and (max-width: 767px) {
     .navbar-default .navbar-brand {
-        padding-top: 45px;
-        padding-left: 10%;
+        @include padding(45px, null, null, 10%);
     }
     .navbar-toggle {
-        margin: 40px 10% 0 80px;
+        @include margin(40px, 10%, 0, 80px);
     }
     .contact-info, .glyphicon {
         text-align: center;
@@ -24,109 +23,105 @@
     }
     .section-head {
         text-align: center;
-        margin-left: 5%;
+        @include margin(null, null, null, 5%);
         width: 90%;
     }
     .main-section {
-        margin: 35px auto 35px auto;
+        @include margin(35px, auto, 35px, auto);
     }
     #about-img, .skill {
-        margin-left: auto;
-        margin-right: auto;
+        @include margin(null, auto, null, auto);
     }
     .skillset {
         text-align: center;
         width: 90%;
-        margin: 45px 0 10px 0;
-    }
-    .skillset + p {
-        width: 90%;
-        margin-left: 5%;
+        @include margin(45px, 0, 10px, 0);
+        + p {
+            width: 90%;
+            @include margin(null, null, null, 5%);
+            color: yellow;
+        }
     }
     .social {
         width: 100%;
         overflow: hidden;
-        padding: 0;
-    }
-    .social ul {
-        padding-top: 30px;
-        padding-left: 0;
-        list-style: none;
-        position: relative;
-        float: left;
-        display: block;
-        left: 50%;
-    }
-    .social ul li {
-        position: relative;
-        float: left;
-        display: block;
-        right: 50%;
+        @include padding(0, 0, 0, 0);
+        ul {
+            @include padding(30px, null, null, 0);
+            list-style: none;
+            position: relative;
+            float: left;
+            display: block;
+            left: 50%;
+            li {
+                position: relative;
+                float: left;
+                display: block;
+                right: 50%;
+            }
+        }
     }
     .stats {
-        margin-top: 60px;
-        padding-bottom: 40px;
-        padding-top: 20px;
+        @include margin(60px, null, null, null);
+        @include padding(20px, null, 40px, null);
         height: auto;
         text-align: center;
-    }
-    .stats h2 {
-        font-size: 2em;
+        h2 {
+            font-size: 2em;
+        }
     }
     .abilities {
         text-align: center;
-        margin-bottom: 0px;
+        @include margin(null, null, 0, null);
     }
     .icon-service {
-        margin-top: 5px;
-        margin-bottom: 20px;
+        @include margin(5px, null, 20px, null);
         font-size: 4em;
         width: 80px;
         height: 80px;
         text-align: center;
     }
     .status {
-        margin-top: 60px;
+        @include margin(60px, null, null, null);
+        @include padding(25px, null, 45px, null);
         height: auto;
-        padding-top: 25px;
-        padding-bottom: 45px;
         text-align: center;
     }
     .status-text {
-        margin: auto;
+        @include margin(auto, auto, auto, auto);
         width: 80%;
     }
     .list-left {
         width: 55%;
     }
     .customers {
-        margin-top: 60px;
-        padding-bottom: 30px;
+        @include margin(60px, null, null, null);
+        @include padding(null, null, 30px, null);
         height: auto;
     }
-    .footer .row {
-        margin-left: 5%;
-        width: 90%;
-    }
-    .footer input, .footer textarea {
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    .footer .glyphicon {
-        width: auto;
-        margin: 5px 0 10px;
-    }
-    .footer ul {
-        margin-left: 5%;
+    .footer {
+        .row {
+            @include margin(null, null, null, 5%);
+            width: 90%;
+        }
+        input, textarea {
+            width: 100%;
+            @include margin(null, 0, null, 0);
+        }
+        .glyphicon {
+            width: auto;
+            @include margin(5px, 0, 10px, null);
+        }
+        ul {
+            @include margin(null, null, null, 5%);
+        }
     }
     span {
-        margin: 0;
-        padding: 0;
+        @include margin(0, 0, 0, 0);
+        @include padding(0, 0, 0, 0);
     }
     .copyright {
-        padding-left: 0;
+        @include padding(0, 0, 0, 0);
         text-align: center;
     }
 }
-

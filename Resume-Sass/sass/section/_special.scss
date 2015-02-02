@@ -17,7 +17,7 @@
     color: $secondary-text-color;
     height: 40px;
     width: 120px;
-    margin-top: 5px;
+    @include margin(5px, null, null, null);
     border: none;
     @include border-radius(5px);
     background-color: $secondary-color;

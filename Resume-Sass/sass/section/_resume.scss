@@ -5,7 +5,7 @@
 .list-right {
     float: right;
     position: relative;
-    margin-top: -140px;
+    @include margin(-140px, null, null, null);
     list-style-type: square;
     text-align: left;
 }

@@ -40,10 +40,16 @@ a:hover {
   background-size: cover; }
 
 .nav {
-  padding: 50px 0 0 50px; }
+  padding-top: 50px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 50px; }
 
 .navbar-default .navbar-brand {
-  padding: 65px 100px 0;
+  padding-top: 65px;
+  padding-right: 100px;
+  padding-bottom: 0;
+  padding-left: 100px;
   color: #f1f1f1;
   font-variant: small-caps;
   font-size: 1.3em; }
@@ -59,7 +65,10 @@ a:hover {
   color: #f1f1f1; }
 
 .navbar-toggle {
-  margin: 40px 0 0 80px; }
+  margin-top: 40px;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 80px; }
 
 nav h1 {
   padding-top: 60px; }
@@ -85,9 +94,13 @@ nav h1 {
   width: 200px;
   height: 20px;
   margin-bottom: 22px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
   border-radius: 10px; }
   .skill p {
-    padding: 17px 0 0 5px; }
+    padding-top: 17px;
+    padding-left: 5px; }
 
 #skill-1 {
   background: steelblue;
@@ -136,10 +149,13 @@ nav h1 {
 
 .social ul {
   padding-left: 2px;
-  margin: 38px auto 0 auto; }
+  margin-top: 38px;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto; }
   .social ul li {
     display: inline-block;
-    margin-left: 10px;
+    margin-top: 10px;
     height: 35px;
     width: 35px; }
 
@@ -183,11 +199,14 @@ nav h1 {
   background-color: steelblue; }
 
 .abilities .row {
-  padding: 10px; }
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px; }
 
 .icon-service {
   font-size: 2em;
-  color: white;
+  color: #f1f1f1;
   background-color: black;
   width: 40px;
   height: 40px;
@@ -218,7 +237,10 @@ nav h1 {
   height: auto;
   background-color: #333;
   color: #f1f1f1;
-  padding: 70px 0 120px 0; }
+  padding-top: 70px;
+  padding-right: 0;
+  padding-bottom: 120px;
+  padding-left: 0; }
   .footer a {
     text-decoration: none;
     font-size: 1.2em; }
@@ -227,13 +249,19 @@ nav h1 {
   .footer li {
     list-style-type: none; }
   .footer input, .footer textarea {
-    margin: 8px 5px;
-    border: none;
+    margin-top: 8px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+    margin-left: 5px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
     border-radius: 2px;
-    padding: 8px;
+    border: none;
     width: 90%;
     color: #333; }
   .footer input {
@@ -242,13 +270,16 @@ nav h1 {
     height: 40px;
     width: 120px;
     color: #f1f1f1;
-    margin: 0 0 0 5px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 5px;
     background-color: steelblue; }
 
 .copyright {
   height: 40px;
   background-color: #1a1a1a;
-  color: white;
+  color: #f1f1f1;
   padding-top: 10px;
   padding-left: 5%; }
 
@@ -256,18 +287,22 @@ nav h1 {
 /*resize elements*/
 @media only screen and (max-width: 988px) {
   .section-head {
+    margin-left: 0px;
     margin-left: 0px; }
 
   .footer {
-    padding-left: 22px;
-    padding-bottom: 70px; } }
+    padding-bottom: 70px;
+    padding-left: 22px; } }
 @media only screen and (max-width: 767px) {
   .navbar-default .navbar-brand {
     padding-top: 45px;
     padding-left: 10%; }
 
   .navbar-toggle {
-    margin: 40px 10% 0 80px; }
+    margin-top: 40px;
+    margin-right: 10%;
+    margin-bottom: 0;
+    margin-left: 80px; }
 
   .contact-info, .glyphicon {
     text-align: center;
@@ -280,54 +315,60 @@ nav h1 {
     width: 90%; }
 
   .main-section {
-    margin: 35px auto 35px auto; }
+    margin-top: 35px;
+    margin-right: auto;
+    margin-bottom: 35px;
+    margin-left: auto; }
 
   #about-img, .skill {
-    margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    margin-left: auto; }
 
   .skillset {
     text-align: center;
     width: 90%;
-    margin: 45px 0 10px 0; }
-
-  .skillset + p {
-    width: 90%;
-    margin-left: 5%; }
+    margin-top: 45px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    margin-left: 0; }
+    .skillset + p {
+      width: 90%;
+      margin-left: 5%;
+      color: yellow; }
 
   .social {
     width: 100%;
     overflow: hidden;
-    padding: 0; }
-
-  .social ul {
-    padding-top: 30px;
-    padding-left: 0;
-    list-style: none;
-    position: relative;
-    float: left;
-    display: block;
-    left: 50%; }
-
-  .social ul li {
-    position: relative;
-    float: left;
-    display: block;
-    right: 50%; }
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0; }
+    .social ul {
+      padding-top: 30px;
+      padding-left: 0;
+      list-style: none;
+      position: relative;
+      float: left;
+      display: block;
+      left: 50%; }
+      .social ul li {
+        position: relative;
+        float: left;
+        display: block;
+        right: 50%; }
 
   .stats {
     margin-top: 60px;
-    padding-bottom: 40px;
     padding-top: 20px;
+    padding-bottom: 40px;
     height: auto;
     text-align: center; }
-
-  .stats h2 {
-    font-size: 2em; }
+    .stats h2 {
+      font-size: 2em; }
 
   .abilities {
     text-align: center;
-    margin-bottom: 0px; }
+    margin-bottom: 0; }
 
   .icon-service {
     margin-top: 5px;
@@ -339,13 +380,16 @@ nav h1 {
 
   .status {
     margin-top: 60px;
-    height: auto;
     padding-top: 25px;
     padding-bottom: 45px;
+    height: auto;
     text-align: center; }
 
   .status-text {
-    margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
     width: 80%; }
 
   .list-left {
@@ -359,24 +403,32 @@ nav h1 {
   .footer .row {
     margin-left: 5%;
     width: 90%; }
-
   .footer input, .footer textarea {
     width: 100%;
-    margin-left: 0;
-    margin-right: 0; }
-
+    margin-right: 0;
+    margin-left: 0; }
   .footer .glyphicon {
     width: auto;
-    margin: 5px 0 10px; }
-
+    margin-top: 5px;
+    margin-right: 0;
+    margin-bottom: 10px; }
   .footer ul {
     margin-left: 5%; }
 
   span {
-    margin: 0;
-    padding: 0; }
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0; }
 
   .copyright {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
     padding-left: 0;
     text-align: center; } }
 
